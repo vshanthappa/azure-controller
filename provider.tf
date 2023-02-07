@@ -1,8 +1,8 @@
-data "azuread_client_config" "current" {}
+# data "azuread_client_config" "current" {}
 
-output "object_id" {
-  value = data.azuread_client_config.current.object_id
-}
+# output "object_id" {
+#  value = data.azuread_client_config.current.object_id
+# }
 
 terraform {
   required_providers {

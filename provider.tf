@@ -24,3 +24,9 @@ terraform {
  provider "azurerm" {
   features {}
 }
+
+provider "azuread" {
+   client_id     = var.az-sub-cli-id
+   client_secret = var.az-sub-cli-sec
+   tenant_id     = var.az-sub-ten-id
+}

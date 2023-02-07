@@ -1,14 +1,3 @@
-terraform {
-  required_providers {
-    azurerm = {
-      source = "hashicorp/azurerm"
-    }
-    azuread = {
-      source = "hashicorp/azuread"
-    }
-  }
-}
-
 module "aviatrix_controller_azure" {
    source                        = "AviatrixSystems/azure-controller/aviatrix"
    controller_name               = "vijay-controller"

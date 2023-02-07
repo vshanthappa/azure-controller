@@ -29,7 +29,7 @@ provider "azuread" {
   client_secret     = var.az-sub-cli-sec
 }
 
-# provider "azurerm" {
-#  features {}
+ provider "azurerm" {
+  features {}
 #   subscription_id   = var.az-sub-id
-#}
+}

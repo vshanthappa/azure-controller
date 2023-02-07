@@ -21,8 +21,8 @@ terraform {
   }
 }
 
-provider "azurerm" {
-  features {}
+provider "azuread" {
+#  features {}
 
   subscription_id   = var.az-sub-id
   tenant_id         = var.az-sub-ten-id
